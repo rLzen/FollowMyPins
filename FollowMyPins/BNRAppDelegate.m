@@ -7,6 +7,8 @@
 //
 
 #import "BNRAppDelegate.h"
+#import "BNRViewController.h"
+#import "BNRTableViewController.h"
 
 @implementation BNRAppDelegate
 
@@ -14,6 +16,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+
+	BNRViewController *viewController = [[BNRViewController alloc]init];
+	BNRTableViewController *tableViewController = [[BNRTableViewController alloc]init];
+
+	UITabBarController *tabBarController = [[UITabBarController alloc]init];
+	tabBarController.viewControllers = @[viewController,tableViewController];
+
+	self.window.rootViewController = tabBarController;
+
+
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

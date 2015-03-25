@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0726DA7A1965F5260048BE88 /* BNRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726DA791965F5260048BE88 /* BNRTableViewController.m */; };
+		0726DA7D1965F9E50048BE88 /* BNRMapPointStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726DA7C1965F9E50048BE88 /* BNRMapPointStorage.m */; };
 		075333511964577E00629BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075333501964577E00629BEF /* Foundation.framework */; };
 		075333531964577E00629BEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075333521964577E00629BEF /* CoreGraphics.framework */; };
 		075333551964577E00629BEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075333541964577E00629BEF /* UIKit.framework */; };
@@ -19,6 +21,11 @@
 		0753336C1964577F00629BEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075333541964577E00629BEF /* UIKit.framework */; };
 		075333741964577F00629BEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075333721964577F00629BEF /* InfoPlist.strings */; };
 		075333761964577F00629BEF /* FollowMyPinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075333751964577F00629BEF /* FollowMyPinsTests.m */; };
+		07533382196457A300629BEF /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07533380196457A300629BEF /* BNRViewController.m */; };
+		07533383196457A300629BEF /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07533381196457A300629BEF /* BNRViewController.xib */; };
+		075333DE1965163200629BEF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075333DD1965163200629BEF /* CoreLocation.framework */; };
+		075333E01965163A00629BEF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075333DF1965163A00629BEF /* MapKit.framework */; };
+		075333E919652D4C00629BEF /* BNRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 075333E819652D4C00629BEF /* BNRMapPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0726DA781965F5260048BE88 /* BNRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRTableViewController.h; sourceTree = "<group>"; };
+		0726DA791965F5260048BE88 /* BNRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRTableViewController.m; sourceTree = "<group>"; };
+		0726DA7B1965F9E50048BE88 /* BNRMapPointStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPointStorage.h; sourceTree = "<group>"; };
+		0726DA7C1965F9E50048BE88 /* BNRMapPointStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPointStorage.m; sourceTree = "<group>"; };
 		0753334D1964577E00629BEF /* FollowMyPins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollowMyPins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075333501964577E00629BEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		075333521964577E00629BEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +59,13 @@
 		075333711964577F00629BEF /* FollowMyPinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FollowMyPinsTests-Info.plist"; sourceTree = "<group>"; };
 		075333731964577F00629BEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		075333751964577F00629BEF /* FollowMyPinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowMyPinsTests.m; sourceTree = "<group>"; };
+		0753337F196457A300629BEF /* BNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		07533380196457A300629BEF /* BNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		07533381196457A300629BEF /* BNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRViewController.xib; sourceTree = "<group>"; };
+		075333DD1965163200629BEF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		075333DF1965163A00629BEF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		075333E719652D4C00629BEF /* BNRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPoint.h; sourceTree = "<group>"; };
+		075333E819652D4C00629BEF /* BNRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075333E01965163A00629BEF /* MapKit.framework in Frameworks */,
+				075333DE1965163200629BEF /* CoreLocation.framework in Frameworks */,
 				075333531964577E00629BEF /* CoreGraphics.framework in Frameworks */,
 				075333551964577E00629BEF /* UIKit.framework in Frameworks */,
 				075333511964577E00629BEF /* Foundation.framework in Frameworks */,
@@ -77,6 +97,15 @@
 		075333441964577E00629BEF = {
 			isa = PBXGroup;
 			children = (
+				0726DA781965F5260048BE88 /* BNRTableViewController.h */,
+				0726DA791965F5260048BE88 /* BNRTableViewController.m */,
+				0753337F196457A300629BEF /* BNRViewController.h */,
+				07533380196457A300629BEF /* BNRViewController.m */,
+				07533381196457A300629BEF /* BNRViewController.xib */,
+				0726DA7B1965F9E50048BE88 /* BNRMapPointStorage.h */,
+				0726DA7C1965F9E50048BE88 /* BNRMapPointStorage.m */,
+				075333E719652D4C00629BEF /* BNRMapPoint.h */,
+				075333E819652D4C00629BEF /* BNRMapPoint.m */,
 				075333561964577E00629BEF /* FollowMyPins */,
 				0753336F1964577F00629BEF /* FollowMyPinsTests */,
 				0753334F1964577E00629BEF /* Frameworks */,
@@ -96,6 +125,8 @@
 		0753334F1964577E00629BEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				075333DF1965163A00629BEF /* MapKit.framework */,
+				075333DD1965163200629BEF /* CoreLocation.framework */,
 				075333501964577E00629BEF /* Foundation.framework */,
 				075333521964577E00629BEF /* CoreGraphics.framework */,
 				075333541964577E00629BEF /* UIKit.framework */,
@@ -221,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0753335B1964577E00629BEF /* InfoPlist.strings in Resources */,
+				07533383196457A300629BEF /* BNRViewController.xib in Resources */,
 				075333631964577E00629BEF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0726DA7D1965F9E50048BE88 /* BNRMapPointStorage.m in Sources */,
+				075333E919652D4C00629BEF /* BNRMapPoint.m in Sources */,
+				0726DA7A1965F5260048BE88 /* BNRTableViewController.m in Sources */,
 				0753335D1964577E00629BEF /* main.m in Sources */,
+				07533382196457A300629BEF /* BNRViewController.m in Sources */,
 				075333611964577E00629BEF /* BNRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +474,7 @@
 				0753337B1964577F00629BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0753337C1964577F00629BEF /* Build configuration list for PBXNativeTarget "FollowMyPinsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +483,7 @@
 				0753337E1964577F00629BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
